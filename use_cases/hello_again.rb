@@ -7,7 +7,3 @@ puts "Welcome to Ruby"
 puts "Lets demonstrate a simple calculation"
 answer = 2 + 2
 puts "2 plus 2 is #{answer}"
-# >> Hello reader.
-# >> Welcome to Ruby
-# >> Lets demonstrate a simple calculation
-# >> 2 plus 2 is 4
