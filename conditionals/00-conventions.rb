@@ -5,7 +5,7 @@
  
 3 + 10 # => 13
 my_variable = 4
-my_variable  # !> possibly useless use of a variable in void context
+my_variable  
 
 # Note the "hash rocket"... # =>
 #
@@ -15,22 +15,19 @@ my_variable  # !> possibly useless use of a variable in void context
 #
 10 + 20  # !> possibly useless use of + in void context
 #
-# (if you are using Textmate 2)[1] the shortcut for creating this is .... command + shift + control then press E
-# (if you are using Sublime text)[2] the shortcut for creating this is .... alt + shift + u
+
+# (using Sublime text)[2] the shortcut for creating this is ... alt + shift + u
 
 10 + 20 # => 30
 
-# This shows what that line evaluates to, and in the case of a line with just a variable on it (line 7 above), shows the value
+# This shows what that line evaluates to, and in the case of a line with just 
+# a variable on it (line 7 above), shows the value
 # of the object it refers to.
 
 # For more complicated output, such as from a print statement, it will appear below the code.
-#
-# [1]textmate download
-# [2]textmate ruby bundle instructions
-# [3]sublime text download
 
-# [4]ruby markers for sublime text instruction
-# Note: for Sublime Text 2 run "gem install rcodetools" on the command line (terminal).
-# You will need this for the Ruby Marker plug-in.
-# For more info go here...
+# [1]ruby markers for sublime text instruction
+# You will need this for the Ruby Marker plug-in...
 # https://sublime.wbond.net/packages/Ruby%20Markers
+
+# Note: for Sublime Text 2 run "gem install rcodetools" on the command line (terminal).
